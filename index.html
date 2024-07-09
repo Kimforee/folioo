@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Singh Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+                "jsm/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <canvas id="bgCanvas"></canvas>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="hero-section">
+            <div class="hero-content">
+                <h1>Hello! I'm Keshav Singh</h1>
+                <p>A web developer with a passion for creating beautiful and functional websites. I have experience in various web technologies and love to learn and explore new trends in web development.</p>
+            </div>
+            <div class="hero-image">
+                <img src="./assests/images/folio.svg" alt="Hero Image">
+            </div>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div style="display: flex; align-items: center;">
+                        <img style="width: 20px; margin-right: 10px;" src="./assests/images/ok.svg" alt="Windows Task Manager">
+                        <h3>Windows Task Manager</h3>
+                      </div>
+                      <p>Developed process boosting, unboosting, and termination functionalities for enhanced system management using Qt and C++.</p>
+                      <a href="https://github.com/Kimforee/Windows-TaskManager" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <div style="display: flex; align-items: center;">
+                      <img style="width: 20px; margin-right: 10px;" src="./assests/images/ok.svg" alt="War for Dungeons">
+                      <h3>War for Dungeons</h3>
+                    </div>
+                    <p>2D platform game with parallax main menu and engaging animations using HTML5 Canvas and JavaScript.</p>
+                    <a href="https://github.com/Kimforee/War-for-Dungeons-Wizard-Edition-2D-Game.git" class="btn">View Project</a>
+                  </div>
+                  
+                  <div class="project-card">
+                    <div style="display: flex; align-items: center;">
+                      <img style="width: 20px; margin-right: 10px;" src="./assests/images/ok.svg" alt="Nest">
+                      <h3>Nest</h3>
+                    </div>
+                    <p>Social network platform with CRUD functionality and real-time chat using Django and JavaScript.</p>
+                    <a href="https://github.com/Kimforee/Nest.git" class="btn">View Project</a>
+                  </div>
+                  
+                  <div class="project-card">
+                    <div style="display: flex; align-items: center;">
+                      <img style="width: 20px; margin-right: 10px;" src="./assests/images/ok.svg" alt="Bhuvan Voice Assistant">
+                      <h3>Bhuvan Voice Assistant</h3>
+                    </div>
+                    <p>Voice activated search assistant with real-time transcription and response using Django and PyTorch.</p>
+                    <a href="https://github.com/Kimforee/Nest.git" class="btn">View Project</a>
+                  </div>
+                  
+                  <div class="project-card">
+                    <div style="display: flex; align-items: center;">
+                      <img style="width: 20px; margin-right: 10px;" src="./assests/images/ok.svg" alt="CoinMarketCap Scraper">
+                      <h3>CoinMarketCap Scraper</h3>
+                    </div>
+                    <p>Crypto data scraping tool using Django, Celery, Redis, and Selenium.</p>
+                    <a href="https://github.com/Kimforee/crypto-scraper-django-celery" class="btn">View Project</a>
+                  </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-content">
+                <h3>Languages:</h3>
+                <table>
+                    <tr>
+                        <td><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="55" height="55"/></td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C" width="55" height="55"/></td>
+                        <td><img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="55" height="55"/></td>
+                        <td><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="55" height="55"/></td>
+                        <td><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="55" height="55"/></td>
+                    </tr>
+                </table>
+
+                <h3>Frameworks and Libraries:</h3>
+                <table>
+                    <tr>
+                        <td><img src="https://techstack-generator.vercel.app/django-icon.svg" alt="Django" width="55" height="55"/></td>
+                        <td><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="55" height="55"/></td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="Qt" width="55" height="55"/></td>
+                        <td><img src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="Pandas" width="55" height="55"/></td>
+                        <td><img src="https://numpy.org/images/logo.svg" alt="NumPy" width="55" height="55"/></td>
+                        <td><img src="https://matplotlib.org/_static/logo_dark.svg" alt="Matplotlib" width="55" height="55"/></td>
+                        <td><img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="RestAPI" width="55" height="55"/></td>
+                    </tr>
+                </table>
+
+                <h3>Tools:</h3>
+                <table>
+                    <tr>
+                        <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="55" height="55"/></td>
+                        <td><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="55" height="55"/></td>
+                        <td><img src="https://skillicons.dev/icons?i=figma" alt="Figma" width="55" height="55"/></td>
+                        <td><img src="https://skillicons.dev/icons?i=vscode&perline=12" alt="VSCode" width="55" height="55"/></td>
+                        <td><img src="https://skillicons.dev/icons?i=matlab" alt="MATLAB" width="55" height="55"/></td>
+                    </tr>
+                </table>
+
+                <h3>Databases:</h3>
+                <table>
+                    <tr>
+                        <td><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="55" height="55"/></td>
+                        <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" width="55" height="55"/></td>
+                    </tr>
+                </table>
+
+                <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kimforee&show_icons=true&locale=en&layout=compact" alt="kimforee" /></p>
+
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>You can reach me at:</p>
+            <ul>
+                <li>Email: keshavimperial@gmail.com</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/keshav-singh-kimforee">Keshav Singh</a></li>
+                <li>GitHub: <a href="https://github.com/Kimforee">Kimforee</a></li>
+                <li>Kaggle: <a href="https://www.kaggle.com/kimforee">Kaggle Profile</a></li>
+            </ul>
+        </section>D:\users\91821\folioo\index.html
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Keshav Singh. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.project-grid').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>
